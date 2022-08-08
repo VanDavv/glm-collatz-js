@@ -1,0 +1,17 @@
+{
+    "name": "glm-hello-world-js",
+    "version": "1.0.0",
+    "description": "Golem Hello World JS",
+    "repository": "https://github.com/VanDavv/glm-hello-world-js",
+    "scripts": {
+        "start": "node ./main.js",
+        "postinstall": "node ./postinstall.js"
+    },
+    "author": "Łukasz Piłatowski <lukasz.pilatowski@golem.network>",
+    "engines": {
+        "node": ">=14.17.0"
+    },
+    "dependencies": {
+        "yajsapi": "git+https://github.com/golemfactory/yajsapi.git"
+    }
+}
